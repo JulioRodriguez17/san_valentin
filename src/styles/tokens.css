@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap');
+
+:root {
+  /* Typography */
+  --font-sans: 'Work Sans', sans-serif;
+  --font-serif: 'Fraunces', serif;
+  --line-height: 1.5;
+  --font-weight-base: 400;
+
+  /* Colors (RGB tuples) */
+  --color-bg: 11 11 15;
+  --color-surface: 12 12 18;
+  --color-text: 255 231 240;
+  --color-accent: 255 77 122;
+  --color-accent-soft: 255 143 176;
+  --color-accent-glow: 255 120 170;
+  --color-border: 255 180 210;
+
+  /* Spacing & radius */
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 24px 60px rgba(0, 0, 0, 0.5);
+
+  /* Legacy tokens used across styles */
+  --bg: var(--color-bg);
+  --text: var(--color-text);
+  --accent: var(--color-accent);
+  --btn-bg: 26 26 26;
+
+  color-scheme: dark;
+}

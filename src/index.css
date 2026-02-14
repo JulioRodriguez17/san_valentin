@@ -1,0 +1,65 @@
+@import './styles/tokens.css';
+
+/* Enlaces */
+a {
+  font-weight: 500;
+  color: rgb(var(--accent));
+  text-decoration: inherit;
+}
+a:hover {
+  filter: brightness(0.95);
+}
+
+/* Body base adaptado al reset */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+  font-family: var(--font-sans);
+  line-height: var(--line-height);
+  font-weight: var(--font-weight-base);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Botones */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(var(--btn-bg));
+  cursor: pointer;
+  transition: border-color 0.25s, transform 0.12s;
+}
+button:hover {
+  border-color: rgb(var(--accent));
+  transform: translateY(-1px);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: 245 245 247;
+    --text: 20 20 24;
+    --btn-bg: 249 249 249;
+  }
+  a:hover {
+    filter: none;
+  }
+}
+
