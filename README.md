@@ -2,6 +2,10 @@
 
 Una página web romántica e interactiva para hacer tu propuesta de San Valentín con efectos especiales, animaciones de corazones y botones con comportamientos únicos.
 
+## 🌐 Demo en Vivo
+
+**[Ver página en vivo →](https://juliorodriguez17.github.io/san_valentin/)**
+
 ## ✨ Características
 
 - 💕 **Lluvia de corazones animados** - Corazones cayendo con movimiento aleatorio en el fondo
@@ -17,7 +21,7 @@ Una página web romántica e interactiva para hacer tu propuesta de San Valentí
 
 ```bash
 # Clonar el repositorio
-git clone github.com-personal:JulioRodriguez17/san_valentin.git
+git clone https://github.com/JulioRodriguez17/san_valentin.git
 cd san_valentin
 
 # Instalar dependencias
